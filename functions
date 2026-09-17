@@ -1,17 +1,7 @@
 void main(){
-    myFunc(){
-        print("hello world");
+    myFunc(String name1,name2){
+        return "hello $name1 and name2";
     }
-    myFunc();
-
-    myFunc(){
-return "hello kim"
-    }
-    print(myFunc());
-
-    myFunc(){
-        return "yoh lee";
-    }
-    var thing=myFunc();
+    var thing=myFunc("kim","glo");
     print(thing);
 }
