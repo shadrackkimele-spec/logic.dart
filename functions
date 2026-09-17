@@ -14,4 +14,11 @@ return "hello kim"
     }
     var thing=myFunc();
     print(thing);
+
+  myFunc(String name1,name2){
+        return "hello $name1 and $name2";
+    }
+    );
+var thing=myFunc("kim","glo");
+    print(thing);
 }
